@@ -7,14 +7,26 @@
 </div>
 <h2>Here are some links to help you start: </h2>
 <ul>
-  <li>
+  <li *ngIf="isElementDisplayed1">
     <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
   </li>
-  <li>
+  <li *ngIf="isElementDisplayed2">
     <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
   </li>
-  <li>
+  <li *ngIf="isElementDisplayed3">
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
 </ul>
 
+
+<ul>
+  <li>
+    <button (click)="toggle1()">Hide 1st</button>
+  </li>
+  <li (click)="toggle2()">
+    Hide 2nd
+  </li>
+  <li (click)="toggle3()">
+    Hide 3rd
+  </li>
+</ul>
