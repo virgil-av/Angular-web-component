@@ -6,7 +6,7 @@ import {Component, EventEmitter, OnChanges, Output, SimpleChanges, Input} from '
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnChanges {
-  title = 'This is a web element with input';
+  title = ' Angular web element with input';
 
   @Input() label = '';
   @Output() action = new EventEmitter<number>();
