@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
 
-Open `src/index.html` and you should see the web component loaded instead of your regular Angular implementation, this component can be implemented in any html page be it static or a wordpress
+Open `src/index.html` and you should see the web component loaded instead of your regular Angular implementation, this web element can be implemented in any html page or website solutions like wordpress.
 
 ## Development server
 
