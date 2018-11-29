@@ -1,1 +1,11 @@
 <greet-comp label="This text is set in the index.html"></greet-comp>
+
+<script>
+  const button = document.querySelector('greet-comp');
+  button.addEventListener('action', (event) => {
+    console.log(`Action created: ${event.detail}`)
+  });
+  setTimeout(() => {
+    button.label = "This text was set on timeout from the index.html, Open console when you click on me :)"
+  },4000);
+</script>
